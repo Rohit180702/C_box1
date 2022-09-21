@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400;
+}
+.foot{
+	padding: 40px 0;
+	background-color: #222222;
+}
+.foot .social{
+	text-align: center;
+	padding-bottom: 25px;
+	color: white;
+}
+.foot .social a{
+
+	font-size: 24px;
+	/* color: white; */
+	/* border: 1px solid #ccc; */
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	line-height: 38px;
+	display: inline-block;
+	text-align: center;
+	/* border-radius: 50%; */
+	margin: 0 8px;
+}
+
+.fa-facebook {
+  color: #ccc;
+}
+.fa-facebook:hover {
+    color: #eeb02c;
+		/* background-color: #eeb02c; */
+}
+
+.fa-twitter {
+  color: #ccc;
+}
+
+.fa-twitter:hover {
+    color: #eeb02c;
+}
+
+.fa-youtube {
+  color: #ccc;
+}
+.fa-youtube:hover {
+    color: #eeb02c;
+}
+.fa-instagram {
+  color: #ccc;
+}
+.fa-instagram:hover {
+    color: #eeb02c;
+}
+.foot ul{
+	margin-top: 0;
+	padding: 0;
+	/* list-style: none; */
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+	text-align: center;
+}
+.foot ul li a{
+	text-decoration: none;
+	color: white;
+}
+.foot ul li a:hover{
+	color: #eeb02c;
+}
+.foot ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+.foot .copyright{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+}
+.foot .copyright a{
+	text-decoration: none;
+	color: #eeb02c;
+}
